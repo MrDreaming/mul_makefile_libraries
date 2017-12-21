@@ -2,7 +2,6 @@
 编译过程 
 
 ~/project/mul_makefile_libraries/main$ make cleanlibs
-
 ~/project/mul_makefile_libraries/main$ make clean 
 
 ~/project/mul_makefile_libraries/main$ make libs 
