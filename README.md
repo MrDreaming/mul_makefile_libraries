@@ -40,3 +40,12 @@ main ...
  dir_b_x.c print_dir_b_x 
  
 
+关于 check_output_dir.sh 脚本的问题
+
+因为在Makefile中无法正确执行下面的语句 
+
+if [ ! -d  ${OUTPUT_PATH_X} ]; then
+
+所以放入到单独的 check_output_dir.sh 脚本中进行检测输出文件夹 ../output/ 是否存在
+
+
