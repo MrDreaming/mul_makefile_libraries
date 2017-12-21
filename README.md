@@ -2,9 +2,13 @@
 编译过程 
 
 ~/project/mul_makefile_libraries/main$ make cleanlibs
+
 ~/project/mul_makefile_libraries/main$ make clean 
+
 ~/project/mul_makefile_libraries/main$ make libs 
+
 ~/project/mul_makefile_libraries/main$ make
+
 gcc -lstdc++ -Wall -c -fPIC -O2 -I../dir_a -I../dir_b -I../dir_c main.cpp -o main.o
 checking exist or not :  ../output/
 exist :  ../output/
